@@ -1,0 +1,8 @@
+{
+  "enable_search": false,
+  "enable_thinking_mode": true,
+  "show_thinking": true,
+  "temperature": 0.6,
+  "max_tokens": 8192,
+  "active_model_key": "Qwen3-30B-A3B-Q4_K_M"
+}

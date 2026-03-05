@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research-Bot</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <h1>Research-Bot</h1>
+        <div class="status-wrap">
+          <span id="status">待機中</span>
+          <span id="contextUsage">計算待ち</span>
+        </div>
+      </header>
+
+      <main class="content">
+        <div class="tabs" role="tablist" aria-label="Main tabs">
+          <button id="tabChatBtn" class="tab-btn is-active" role="tab" aria-selected="true" aria-controls="chatTabPanel">チャット</button>
+          <button id="tabModelsBtn" class="tab-btn" role="tab" aria-selected="false" aria-controls="modelsTabPanel">モデル管理</button>
+        </div>
+
+        <section id="chatTabPanel" class="tab-panel is-active" role="tabpanel" aria-labelledby="tabChatBtn">
+          <div class="chat-layout">
+            <section class="chat-panel">
+              <div id="chatLog" class="chat-log"></div>
+              <div class="input-row">
+                <textarea id="messageInput" placeholder="質問を入力してください" rows="2"></textarea>
+                <button id="sendBtn">送信</button>
+                <button id="stopBtn" class="secondary">停止</button>
+                <button id="clearBtn" class="secondary">クリア</button>
+              </div>
+              <details class="thinking-block">
+                <summary>思考プロセス</summary>
+                <div id="thinking"></div>
+              </details>
+            </section>
+
+            <aside class="side-panel">
+              <section class="card">
+                <h2>設定</h2>
+                <label><input type="checkbox" id="enableSearch" /> Web検索</label>
+                <label><input type="checkbox" id="enableThinkingMode" /> Thinkingモード</label>
+                <label><input type="checkbox" id="showThinking" /> 思考表示</label>
+                <label>
+                  Temperature
+                  <input type="range" id="temperature" min="0" max="1" step="0.05" />
+                  <span id="temperatureValue"></span>
+                </label>
+                <label>
+                  Max Tokens
+                  <input type="range" id="maxTokens" min="512" max="16384" step="512" />
+                  <span id="maxTokensValue"></span>
+                </label>
+                <button id="saveSettingsBtn" class="secondary">設定を保存</button>
+              </section>
+            </aside>
+          </div>
+        </section>
+
+        <section id="modelsTabPanel" class="tab-panel" role="tabpanel" aria-labelledby="tabModelsBtn">
+          <section class="card model-card">
+            <h2>モデル管理</h2>
+            <div id="modelList" class="model-list"></div>
+            <div class="button-row">
+              <button id="refreshModelsBtn" class="secondary">更新</button>
+              <button id="unloadModelBtn" class="secondary">アンロード</button>
+            </div>
+            <label>
+              切り替えモデル
+              <select id="switchModelSelect"></select>
+            </label>
+            <button id="switchModelBtn">切り替え</button>
+            <label>
+              ダウンロードモデル
+              <select id="downloadModelSelect"></select>
+            </label>
+            <button id="downloadModelBtn">ダウンロード</button>
+            <pre id="downloadProgress" class="progress"></pre>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

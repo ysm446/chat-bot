@@ -1,0 +1,18 @@
+# LLM推論（Windows + CUDA 対応）
+llama-cpp-python>=0.3.0
+
+# API backend
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.7.0
+
+# 検索
+ddgs>=0.1.0
+
+# ユーティリティ
+pyyaml>=6.0
+huggingface-hub>=0.20.0
+
+# オプション（開発用）
+pytest>=7.0.0
+black>=23.0.0

@@ -1,0 +1,1112 @@
+2026-02-12 07:18:39 [ERROR] __main__: モデルが見つかりません: ./models/Qwen3-30B-A3B-Thinking-2507-Q4
+2026-02-12 07:18:39 [ERROR] __main__: 先に download_model.py を実行してモデルをダウンロードしてください:
+2026-02-12 07:18:39 [ERROR] __main__:   python download_model.py
+2026-02-12 08:55:44 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 08:55:44 [INFO] __main__: LLMを初期化中: ./models/Qwen3-30B-A3B-Thinking-2507-Q4
+2026-02-12 08:56:08 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-30B-A3B-Thinking-2507-Q4
+2026-02-12 08:56:08 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 08:56:09 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 08:56:12 [ERROR] src.llm_handler: モデルの読み込みに失敗しました: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `llm_int8_enable_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
+2026-02-12 08:56:12 [ERROR] __main__: 初期化エラー: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `llm_int8_enable_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 
+2026-02-12 09:19:35 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 09:19:35 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:19:38 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:19:38 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 09:19:38 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 09:19:43 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 09:19:43 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 09:19:46 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 09:19:47 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 09:20:51 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 09:20:51 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:20:54 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:20:54 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 09:20:54 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 09:20:59 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 09:20:59 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 09:21:00 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 09:21:01 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 09:22:10 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 09:22:10 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:22:13 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:22:13 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 09:22:13 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 09:22:18 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 09:22:18 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 09:22:19 [INFO] __main__: アプリを起動します: http://0.0.0.0:7860
+2026-02-12 09:22:20 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 09:22:20 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 09:22:55 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 09:22:55 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:22:58 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:22:58 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 09:22:59 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 09:23:03 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 09:23:03 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 09:23:05 [INFO] __main__: アプリを起動します: http://0.0.0.0:7860
+2026-02-12 09:23:05 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 09:23:05 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 09:23:07 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-12 09:23:09 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-12 09:23:10 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-12 09:24:01 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 09:24:01 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:24:04 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:24:04 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 09:24:05 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 09:24:10 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 09:24:10 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 09:24:11 [INFO] __main__: アプリを起動します: http://0.0.0.0:7860
+2026-02-12 09:24:11 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 09:24:12 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 09:24:13 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-12 09:24:15 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-12 09:24:16 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-12 09:27:45 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 09:27:45 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:27:48 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:27:48 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 09:27:48 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 09:27:53 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 09:27:53 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 09:27:55 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 09:27:55 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 09:28:44 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 09:28:44 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:28:47 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:28:47 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 09:28:48 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 09:28:52 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 09:28:52 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 09:28:54 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-12 09:28:54 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 09:28:54 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 09:28:56 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-12 09:28:58 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-12 09:28:58 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-12 09:29:16 [INFO] __main__: Web検索を実行: トヨタのニュースについておしえて
+2026-02-12 09:29:16 [INFO] src.search_handler: 検索クエリ: トヨタのニュースについておしえて
+2026-02-12 09:29:16 [INFO] primp: response: https://www.bing.com/search?q=%E3%83%88%E3%83%A8%E3%82%BF%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6 200
+2026-02-12 09:29:16 [INFO] src.search_handler: 検索結果: 0 件
+2026-02-12 09:29:16 [WARNING] __main__: 検索結果が見つかりませんでした
+2026-02-12 09:32:09 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 09:32:09 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:32:12 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:32:12 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 09:32:13 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 09:32:18 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 09:32:18 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 09:32:19 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-12 09:32:19 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 09:32:19 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 09:32:21 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-12 09:32:23 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-12 09:32:23 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-12 09:32:53 [INFO] __main__: Web検索を実行: 最近の半導体事情について教えてください。ネット検索してください。
+2026-02-12 09:32:53 [INFO] src.search_handler: 検索クエリ: 最近の半導体事情について教えてください。ネット検索してください。
+2026-02-12 09:32:53 [INFO] primp: response: https://www.bing.com/search?q=%E6%9C%80%E8%BF%91%E3%81%AE%E5%8D%8A%E5%B0%8E%E4%BD%93%E4%BA%8B%E6%83%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%E3%83%8D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-12 09:32:54 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-12 09:32:54 [INFO] __main__: 検索結果: 5 件
+2026-02-12 09:34:49 [INFO] __main__: Web検索を実行: 今週のDRAM価格をおしえて
+2026-02-12 09:34:49 [INFO] src.search_handler: 検索クエリ: 今週のDRAM価格をおしえて
+2026-02-12 09:34:49 [INFO] primp: response: https://www.bing.com/search?q=%E4%BB%8A%E9%80%B1%E3%81%AEDRAM%E4%BE%A1%E6%A0%BC%E3%82%92%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6 200
+2026-02-12 09:34:49 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-12 09:34:49 [INFO] __main__: 検索結果: 5 件
+2026-02-12 09:38:07 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 09:38:07 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:38:10 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 09:38:10 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 09:38:10 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 09:38:15 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 09:38:15 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 09:38:16 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-12 09:38:16 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 09:38:17 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 09:38:18 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-12 09:38:20 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-12 09:38:21 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-12 09:38:53 [INFO] __main__: Web検索を実行: 今週の日経平均について教えて。ウェブ検索もしてください。
+
+2026-02-12 09:38:53 [INFO] src.search_handler: 検索クエリ: 今週の日経平均について教えて。ウェブ検索もしてください。
+
+2026-02-12 09:38:53 [INFO] primp: response: https://www.bing.com/search?q=%E4%BB%8A%E9%80%B1%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%80%82%E3%82%A6%E3%82%A7%E3%83%96%E6%A4%9C%E7%B4%A2%E3%82%82%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%0A 200
+2026-02-12 09:38:53 [INFO] src.search_handler: 検索結果: 0 件
+2026-02-12 09:38:53 [WARNING] __main__: 検索結果が見つかりませんでした
+2026-02-12 09:41:51 [INFO] __main__: Web検索を実行: あなたについておしえて
+
+2026-02-12 09:41:51 [INFO] src.search_handler: 検索クエリ: あなたについておしえて
+
+2026-02-12 09:41:51 [INFO] primp: response: https://www.bing.com/search?q=%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%0A 200
+2026-02-12 09:41:51 [INFO] src.search_handler: 検索結果: 0 件
+2026-02-12 09:41:51 [WARNING] __main__: 検索結果が見つかりませんでした
+2026-02-12 23:29:59 [INFO] __main__: Web検索を実行: 今日の天気は？
+2026-02-12 23:29:59 [INFO] src.search_handler: 検索クエリ: 今日の天気は？
+2026-02-12 23:29:59 [INFO] primp: response: https://www.bing.com/search?q=%E4%BB%8A%E6%97%A5%E3%81%AE%E5%A4%A9%E6%B0%97%E3%81%AF%EF%BC%9F 200
+2026-02-12 23:29:59 [INFO] src.search_handler: 検索結果: 0 件
+2026-02-12 23:29:59 [WARNING] __main__: 検索結果が見つかりませんでした
+2026-02-12 23:34:17 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 23:34:17 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 23:34:40 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 23:34:40 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 23:34:40 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 23:34:50 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 23:34:50 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 23:34:52 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-12 23:34:52 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 23:34:53 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 23:41:29 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 23:41:29 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 23:41:32 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 23:41:32 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 23:41:33 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 23:41:37 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 23:41:37 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 23:41:39 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-12 23:41:39 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 23:41:39 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 23:41:41 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-12 23:41:43 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-12 23:41:43 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-12 23:41:52 [INFO] __main__: Web検索を実行: 今日の天気をおしえて
+2026-02-12 23:41:52 [INFO] src.search_handler: 検索クエリ: 今日の天気をおしえて
+2026-02-12 23:41:53 [INFO] primp: response: https://www.bing.com/search?q=%E4%BB%8A%E6%97%A5%E3%81%AE%E5%A4%A9%E6%B0%97%E3%82%92%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6 200
+2026-02-12 23:41:53 [INFO] src.search_handler: 検索結果: 0 件
+2026-02-12 23:41:53 [WARNING] __main__: 検索結果が見つかりませんでした
+2026-02-12 23:49:05 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 23:49:05 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 23:49:08 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 23:49:08 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 23:49:08 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 23:49:13 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 23:49:13 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 23:49:15 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-12 23:49:15 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 23:49:15 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 23:49:17 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-12 23:49:19 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-12 23:49:19 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-12 23:49:41 [INFO] __main__: Web検索を実行: 今日の天気を教えて
+2026-02-12 23:49:41 [INFO] src.search_handler: 検索クエリ: 今日の天気を教えて
+2026-02-12 23:49:41 [WARNING] src.search_handler: 検索エラー（試行 1/3）: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:49:42 [WARNING] src.search_handler: 検索エラー（試行 2/3）: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:49:44 [WARNING] src.search_handler: 検索エラー（試行 3/3）: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:49:44 [ERROR] src.search_handler: 検索失敗: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:49:44 [WARNING] __main__: 検索結果が見つかりませんでした
+2026-02-12 23:51:01 [INFO] __main__: Web検索を実行: 今日の天気を教えて
+2026-02-12 23:51:01 [INFO] src.search_handler: 検索クエリ: 今日の天気を教えて
+2026-02-12 23:51:01 [WARNING] src.search_handler: 検索エラー（試行 1/3）: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:51:02 [WARNING] src.search_handler: 検索エラー（試行 2/3）: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:51:04 [WARNING] src.search_handler: 検索エラー（試行 3/3）: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:51:04 [ERROR] src.search_handler: 検索失敗: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:51:04 [WARNING] __main__: 検索結果が見つかりませんでした
+2026-02-12 23:52:29 [INFO] __main__: Web検索を実行: 今日の日経平均の終値を教えて
+2026-02-12 23:52:29 [INFO] src.search_handler: 検索クエリ: 今日の日経平均の終値を教えて
+2026-02-12 23:52:29 [WARNING] src.search_handler: 検索エラー（試行 1/3）: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:52:30 [WARNING] src.search_handler: 検索エラー（試行 2/3）: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:52:32 [WARNING] src.search_handler: 検索エラー（試行 3/3）: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:52:32 [ERROR] src.search_handler: 検索失敗: DDGS.text() missing 1 required positional argument: 'query'
+2026-02-12 23:52:32 [WARNING] __main__: 検索結果が見つかりませんでした
+2026-02-12 23:55:08 [INFO] __main__: Research-Bot を起動しています...
+2026-02-12 23:55:08 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 23:55:11 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-12 23:55:11 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-12 23:55:11 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-12 23:55:16 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-12 23:55:16 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-12 23:55:18 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-12 23:55:18 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-12 23:55:18 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-12 23:55:20 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-12 23:55:22 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-12 23:55:22 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-12 23:55:51 [INFO] __main__: Web検索を実行: 今日の日経平均終値を教えて
+2026-02-12 23:55:51 [INFO] src.search_handler: 検索クエリ: 今日の日経平均終値を教えて
+2026-02-12 23:55:52 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E7%B5%82%E5%80%A4%E3%82%92%E6%95%99%E3%81%88%E3%81%A6&limit=1 200
+2026-02-12 23:55:52 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E7%B5%82%E5%80%A4%E3%82%92%E6%95%99%E3%81%88%E3%81%A6 200
+2026-02-12 23:55:53 [INFO] primp: response: https://www.google.com/search?q=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E7%B5%82%E5%80%A4%E3%82%92%E6%95%99%E3%81%88%E3%81%A6&filter=1&start=0&hl=jp-JP&lr=lang_jp&cr=countryJP 200
+2026-02-12 23:55:53 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-12 23:55:53 [INFO] __main__: 検索結果: 5 件
+2026-02-13 00:01:17 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 00:01:17 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-13 00:01:20 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-13 00:01:20 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 00:01:20 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-13 00:01:25 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-13 00:01:25 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 00:01:27 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 00:01:27 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-13 00:01:27 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 00:02:43 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 00:02:43 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-13 00:02:46 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-13 00:02:46 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 00:02:47 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-13 00:02:52 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-13 00:02:52 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 00:02:53 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 00:02:53 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-13 00:02:53 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 00:02:55 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 00:02:57 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 00:02:57 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-13 00:03:06 [INFO] __main__: Web検索を実行: 今日の日経平均終値をおしえてください
+2026-02-13 00:03:06 [INFO] src.search_handler: 検索クエリ: 今日の日経平均終値をおしえてください
+2026-02-13 00:03:08 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E7%B5%82%E5%80%A4%E3%82%92%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84 200
+2026-02-13 00:03:12 [INFO] ddgs.ddgs: Error in engine duckduckgo: TimeoutException("Request timed out: RuntimeError('error sending request for url (https://grokipedia.com/api/typeahead?query=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E7%B5%82%E5%80%A4%E3%82%92%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&limit=1): operation timed out\\n\\nCaused by:\\n    operation timed out')")
+2026-02-13 00:03:13 [INFO] httpx: HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-13 00:03:13 [INFO] primp: response: https://search.yahoo.com/search;_ylt=e2YWFg4Kp19YYBFhfxkU7pYt;_ylu=OFSm9q3YgeLFCO5hNZpnIHaFjKjikr8PXKJnGTT-V1aX5Qs?p=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E7%B5%82%E5%80%A4%E3%82%92%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84 200
+2026-02-13 00:03:13 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 00:03:13 [INFO] __main__: 検索結果: 5 件
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/revision/main "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00001-of-00005.safetensors "HTTP/1.1 302 Found"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/generation_config.json "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/.gitattributes "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/generation_config.json "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/.gitattributes "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/LICENSE "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/merges.txt "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/.gitattributes "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/LICENSE "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/merges.txt "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/LICENSE "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/merges.txt "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00002-of-00005.safetensors "HTTP/1.1 302 Found"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/README.md "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/xet-read-token/b968826d9c46dd6066d109eabc6255188de91218 "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/README.md "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00003-of-00005.safetensors "HTTP/1.1 302 Found"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00004-of-00005.safetensors "HTTP/1.1 302 Found"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00005-of-00005.safetensors "HTTP/1.1 302 Found"
+2026-02-13 00:05:12 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/xet-read-token/b968826d9c46dd6066d109eabc6255188de91218 "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/model.safetensors.index.json "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/tokenizer.json "HTTP/1.1 302 Found"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/model.safetensors.index.json "HTTP/1.1 200 OK"
+2026-02-13 00:05:12 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-13 00:05:13 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/vocab.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-13 00:05:13 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/vocab.json "HTTP/1.1 200 OK"
+2026-02-13 00:05:13 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/vocab.json "HTTP/1.1 200 OK"
+2026-02-13 00:24:33 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/xet-read-token/b968826d9c46dd6066d109eabc6255188de91218 "HTTP/1.1 200 OK"
+2026-02-13 01:49:34 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 01:49:34 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-13 01:49:54 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-13 01:49:54 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 01:49:54 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-13 01:50:01 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-13 01:50:01 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 01:50:03 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 01:50:04 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-13 01:50:04 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 01:51:37 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 01:51:37 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-13 01:51:40 [INFO] src.llm_handler: モデルを読み込んでいます: ./models/Qwen3-4B-Thinking-2507
+2026-02-13 01:51:40 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 01:51:41 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-13 01:51:46 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-13 01:51:46 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 01:51:47 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 01:51:47 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-13 01:51:48 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 01:51:49 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 01:51:51 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 01:51:52 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-13 01:52:32 [INFO] __main__: Web検索を実行: 今日の日経絵平均の終値は？
+2026-02-13 01:52:32 [INFO] src.search_handler: 検索クエリ: 今日の日経絵平均の終値は？
+2026-02-13 01:52:33 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E7%B5%B5%E5%B9%B3%E5%9D%87%E3%81%AE%E7%B5%82%E5%80%A4%E3%81%AF%EF%BC%9F&limit=1 200
+2026-02-13 01:52:33 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E7%B5%B5%E5%B9%B3%E5%9D%87%E3%81%AE%E7%B5%82%E5%80%A4%E3%81%AF%EF%BC%9F 200
+2026-02-13 01:52:34 [INFO] primp: response: https://search.brave.com/search?q=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E7%B5%B5%E5%B9%B3%E5%9D%87%E3%81%AE%E7%B5%82%E5%80%A4%E3%81%AF%EF%BC%9F&source=web 200
+2026-02-13 01:52:34 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 01:52:34 [INFO] __main__: 検索結果: 5 件
+2026-02-13 01:53:40 [INFO] __main__: GPU VRAMをクリアしました
+2026-02-13 01:53:40 [INFO] __main__: モデルを切り替えています: Qwen3-8B (models/Qwen3-8B)
+2026-02-13 01:53:40 [INFO] src.llm_handler: モデルを読み込んでいます: models/Qwen3-8B
+2026-02-13 01:53:40 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 01:53:41 [INFO] src.llm_handler: 4bit量子化を有効化しました (bitsandbytes NF4)
+2026-02-13 01:53:50 [INFO] src.llm_handler: モデルの読み込みが完了しました
+2026-02-13 01:54:05 [INFO] __main__: Web検索を実行: 今日の日経絵平均の終値は？
+2026-02-13 01:54:05 [INFO] src.search_handler: 検索クエリ: 今日の日経絵平均の終値は？
+2026-02-13 01:54:05 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E7%B5%B5%E5%B9%B3%E5%9D%87%E3%81%AE%E7%B5%82%E5%80%A4%E3%81%AF%EF%BC%9F 200
+2026-02-13 01:54:05 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E7%B5%B5%E5%B9%B3%E5%9D%87%E3%81%AE%E7%B5%82%E5%80%A4%E3%81%AF%EF%BC%9F&limit=1 200
+2026-02-13 01:54:07 [INFO] primp: response: https://www.mojeek.com/search?q=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E7%B5%B5%E5%B9%B3%E5%9D%87%E3%81%AE%E7%B5%82%E5%80%A4%E3%81%AF%EF%BC%9F 200
+2026-02-13 01:54:07 [INFO] primp: response: https://www.google.com/search?q=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E7%B5%B5%E5%B9%B3%E5%9D%87%E3%81%AE%E7%B5%82%E5%80%A4%E3%81%AF%EF%BC%9F&filter=1&start=0&hl=jp-JP&lr=lang_jp&cr=countryJP 200
+2026-02-13 01:54:07 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 01:54:07 [INFO] __main__: 検索結果: 5 件
+2026-02-13 01:54:49 [INFO] __main__: Web検索を実行: あなたについて教えて
+2026-02-13 01:54:49 [INFO] src.search_handler: 検索クエリ: あなたについて教えて
+2026-02-13 01:54:49 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6&limit=1 200
+2026-02-13 01:54:51 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6 200
+2026-02-13 01:54:51 [INFO] primp: response: https://search.brave.com/search?q=%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6&source=web 200
+2026-02-13 01:54:51 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 01:54:51 [INFO] __main__: 検索結果: 5 件
+2026-02-13 02:16:25 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 02:16:25 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Thinking-2507
+2026-02-13 02:16:31 [ERROR] src.llm_handler: 必要なパッケージがインストールされていません: No module named 'vllm._C'
+2026-02-13 02:16:31 [ERROR] __main__: 初期化エラー: No module named 'vllm._C'
+2026-02-13 02:30:47 [ERROR] __main__: モデルが見つかりません: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:30:47 [ERROR] __main__: 先に download_model.py を実行してモデルをダウンロードしてください:
+2026-02-13 02:30:47 [ERROR] __main__:   python download_model.py
+2026-02-13 02:34:21 [ERROR] __main__: モデルが見つかりません: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:34:21 [ERROR] __main__: 先に download_model.py を実行してモデルをダウンロードしてください:
+2026-02-13 02:34:21 [ERROR] __main__:   python download_model.py
+2026-02-13 02:40:40 [ERROR] __main__: モデルが見つかりません: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:40:40 [ERROR] __main__: 先に download_model.py を実行してモデルをダウンロードしてください:
+2026-02-13 02:40:40 [ERROR] __main__:   python download_model.py
+2026-02-13 02:41:17 [ERROR] __main__: モデルが見つかりません: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:41:17 [ERROR] __main__: 先に download_model.py を実行してモデルをダウンロードしてください:
+2026-02-13 02:41:17 [ERROR] __main__:   python download_model.py
+2026-02-13 02:42:32 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 02:42:32 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:42:32 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:42:32 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 02:42:32 [ERROR] __main__: 初期化エラー: 
+2026-02-13 02:43:23 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 02:43:23 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:43:23 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:43:23 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 02:43:23 [ERROR] __main__: 初期化エラー: 
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\main.py", line 494, in main
+    llm, searcher = load_components(config)
+  File "D:\GitHub\research-bot\main.py", line 27, in load_components
+    llm = LLMHandler(model_path=model_path, config=model_config)
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 32, in __init__
+    self._load_model()
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 54, in _load_model
+    self.llm = Llama(
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 962, in __init__
+    self._n_vocab = self.n_vocab()
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 2266, in n_vocab
+    return self._model.n_vocab()
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 251, in n_vocab
+    assert self.model is not None
+AssertionError
+2026-02-13 02:44:58 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 02:44:58 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:44:58 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 02:44:58 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 02:44:59 [WARNING] src.llm_handler: GPU ロードに失敗しました ()。CPU のみで再試行します...
+2026-02-13 02:44:59 [ERROR] __main__: 初期化エラー: 
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 56, in _load_model
+    self.llm = Llama(
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 962, in __init__
+    self._n_vocab = self.n_vocab()
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 2266, in n_vocab
+    return self._model.n_vocab()
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 251, in n_vocab
+    assert self.model is not None
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\main.py", line 494, in main
+    llm, searcher = load_components(config)
+  File "D:\GitHub\research-bot\main.py", line 27, in load_components
+    llm = LLMHandler(model_path=model_path, config=model_config)
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 32, in __init__
+    self._load_model()
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 72, in _load_model
+    self.llm = Llama(
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 962, in __init__
+    self._n_vocab = self.n_vocab()
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 2266, in n_vocab
+    return self._model.n_vocab()
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 251, in n_vocab
+    assert self.model is not None
+AssertionError
+2026-02-13 03:06:45 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 03:06:45 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:06:45 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:06:45 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 03:06:47 [INFO] src.llm_handler: モデルの読み込みが完了しました (n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 03:06:47 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 03:06:51 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 03:06:51 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 03:06:53 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 03:06:55 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 03:08:05 [INFO] __main__: Web検索を実行: 今日の日経平均終値を教えてください。
+2026-02-13 03:08:05 [INFO] src.search_handler: 検索クエリ: 今日の日経平均終値を教えてください。
+2026-02-13 03:08:06 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E7%B5%82%E5%80%A4%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&limit=1 200
+2026-02-13 03:08:07 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E7%B5%82%E5%80%A4%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-13 03:08:07 [INFO] primp: response: https://search.brave.com/search?q=%E4%BB%8A%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E7%B5%82%E5%80%A4%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&source=web 200
+2026-02-13 03:08:08 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 03:08:08 [INFO] __main__: 検索結果: 5 件
+2026-02-13 03:10:22 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 03:10:22 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:10:22 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:10:22 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 03:10:24 [INFO] src.llm_handler: モデルの読み込みが完了しました (n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 03:10:24 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 03:10:26 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 03:10:27 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 03:10:50 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 03:10:50 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:10:50 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:10:50 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 03:10:52 [INFO] src.llm_handler: モデルの読み込みが完了しました (n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 03:10:52 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 03:10:54 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 03:10:55 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 03:10:56 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 03:10:58 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 03:11:15 [INFO] __main__: Web検索を実行: 285Aキオクシアホールディングスの決算について解説してください。
+2026-02-13 03:11:15 [INFO] src.search_handler: 検索クエリ: 285Aキオクシアホールディングスの決算について解説してください。
+2026-02-13 03:11:16 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=285A%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%83%9B%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9%E3%81%AE%E6%B1%BA%E7%AE%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A7%A3%E8%AA%AC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&limit=1 200
+2026-02-13 03:11:17 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=285A%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%83%9B%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9%E3%81%AE%E6%B1%BA%E7%AE%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A7%A3%E8%AA%AC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-13 03:11:18 [INFO] primp: response: https://yandex.com/search/site/?text=285A%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%83%9B%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9%E3%81%AE%E6%B1%BA%E7%AE%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A7%A3%E8%AA%AC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&web=1&searchid=5762703 200
+2026-02-13 03:11:18 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 03:11:18 [INFO] __main__: 検索結果: 5 件
+2026-02-13 03:48:20 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 03:48:20 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:48:20 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:48:20 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 03:48:22 [INFO] src.llm_handler: モデルの読み込みが完了しました (n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 03:48:22 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 03:48:24 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 03:48:24 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 03:49:58 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 03:49:58 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:49:58 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:49:58 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 03:50:01 [INFO] src.llm_handler: モデルの読み込みが完了しました (n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 03:50:01 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 03:50:03 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 03:50:03 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 03:51:54 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 03:51:54 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:51:54 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:51:54 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 03:51:56 [INFO] src.llm_handler: モデルの読み込みが完了しました (n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 03:51:56 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 03:51:58 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 03:51:58 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 03:52:00 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 03:52:02 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 03:53:05 [INFO] __main__: Web検索を実行: キオクシアという会社について教えてください
+2026-02-13 03:53:05 [INFO] src.search_handler: 検索クエリ: キオクシアという会社について教えてください
+2026-02-13 03:53:06 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%81%A8%E3%81%84%E3%81%86%E4%BC%9A%E7%A4%BE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&limit=1 200
+2026-02-13 03:53:07 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%81%A8%E3%81%84%E3%81%86%E4%BC%9A%E7%A4%BE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84 200
+2026-02-13 03:53:07 [INFO] primp: response: https://www.google.com/search?q=%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%81%A8%E3%81%84%E3%81%86%E4%BC%9A%E7%A4%BE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&filter=1&start=0&hl=jp-JP&lr=lang_jp&cr=countryJP 200
+2026-02-13 03:53:08 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 03:53:08 [INFO] __main__: 検索結果: 5 件
+2026-02-13 03:58:06 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 03:58:06 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:58:06 [WARNING] src.llm_handler: ⚠️  llama-cpp-python: GPU サポートなし（CPU ビルド）。高速化には CUDA 版のインストールが必要です:
+  pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
+2026-02-13 03:58:06 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 03:58:06 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 03:58:06 [WARNING] src.llm_handler: GPU 非対応のため n_gpu_layers を -1 → 0 に変更します
+2026-02-13 03:58:08 [INFO] src.llm_handler: モデルの読み込みが完了しました (CPU のみ, n_ctx=32768)
+2026-02-13 03:58:08 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 03:58:10 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 03:58:10 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 03:58:12 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 03:58:14 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 03:58:37 [INFO] src.llm_handler: llama-cpp モデルをシャットダウンしました
+2026-02-13 03:58:38 [INFO] __main__: GPU VRAMをクリアしました
+2026-02-13 03:58:38 [INFO] __main__: モデルを切り替えています: Qwen3-8B-Q4_K_M (models/Qwen3-8B-Q4_K_M.gguf)
+2026-02-13 03:58:38 [WARNING] src.llm_handler: ⚠️  llama-cpp-python: GPU サポートなし（CPU ビルド）。高速化には CUDA 版のインストールが必要です:
+  pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
+2026-02-13 03:58:38 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: models/Qwen3-8B-Q4_K_M.gguf
+2026-02-13 03:58:38 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 03:58:38 [WARNING] src.llm_handler: GPU 非対応のため n_gpu_layers を -1 → 0 に変更します
+2026-02-13 03:58:41 [INFO] src.llm_handler: モデルの読み込みが完了しました (CPU のみ, n_ctx=32768)
+2026-02-13 04:00:22 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 04:00:22 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:00:22 [WARNING] src.llm_handler: ⚠️  llama-cpp-python: GPU サポートなし（CPU ビルド）。高速化には CUDA 版のインストールが必要です:
+  pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
+2026-02-13 04:00:22 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:00:22 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:00:22 [WARNING] src.llm_handler: GPU 非対応のため n_gpu_layers を -1 → 0 に変更します
+2026-02-13 04:00:24 [INFO] src.llm_handler: モデルの読み込みが完了しました (CPU のみ, n_ctx=32768)
+2026-02-13 04:00:24 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 04:00:26 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 04:00:27 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 04:00:28 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 04:00:30 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 04:05:31 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 04:05:31 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:05:31 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:05:31 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:05:31 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 04:05:34 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 04:05:34 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 04:05:35 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 04:05:36 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 04:05:37 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 04:05:39 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 04:07:03 [INFO] src.llm_handler: llama-cpp モデルをシャットダウンしました
+2026-02-13 04:07:05 [INFO] __main__: GPU VRAMをクリアしました
+2026-02-13 04:07:05 [INFO] __main__: モデルを切り替えています: Qwen3-8B-Q4_K_M (models/Qwen3-8B-Q4_K_M.gguf)
+2026-02-13 04:07:05 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: models/Qwen3-8B-Q4_K_M.gguf
+2026-02-13 04:07:05 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:07:05 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 04:07:08 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 04:08:28 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 04:08:28 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:08:28 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:08:28 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:08:28 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 04:08:30 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 04:08:30 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 04:08:32 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 04:08:32 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 04:08:34 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 04:08:36 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 04:08:56 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 04:08:56 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:08:56 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:08:56 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:08:56 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 04:08:58 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 04:08:58 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 04:08:59 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 04:09:00 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 04:09:02 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 04:09:04 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 04:14:23 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 04:14:23 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:14:24 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:14:24 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:14:24 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 04:14:26 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 04:14:26 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 04:14:28 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 04:14:28 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 04:14:30 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 04:14:32 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 04:50:04 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 04:50:04 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:50:05 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:50:05 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:50:05 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 04:50:08 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 04:50:08 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 04:50:10 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 04:50:11 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 04:50:38 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 04:50:38 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:50:38 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:50:38 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:50:38 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 04:50:41 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 04:50:41 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 04:50:43 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 04:50:43 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 04:51:18 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 04:51:18 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:51:18 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 04:51:18 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:51:18 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 04:51:21 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 04:51:21 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 04:51:23 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 04:51:24 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 04:51:25 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 04:51:27 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 04:51:34 [INFO] __main__: Web検索を実行: 自己紹介してください
+2026-02-13 04:51:34 [INFO] src.search_handler: 検索クエリ: 自己紹介してください
+2026-02-13 04:51:35 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&limit=1 200
+2026-02-13 04:51:36 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84 200
+2026-02-13 04:51:37 [INFO] primp: response: https://search.brave.com/search?q=%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&source=web 200
+2026-02-13 04:51:37 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 04:51:37 [INFO] __main__: 検索結果: 5 件
+2026-02-13 04:52:24 [INFO] src.llm_handler: llama-cpp モデルをシャットダウンしました
+2026-02-13 04:52:25 [INFO] __main__: GPU VRAMをクリアしました
+2026-02-13 04:52:25 [INFO] __main__: モデルを切り替えています: Qwen3-8B-Q4_K_M (models/Qwen3-8B-Q4_K_M.gguf)
+2026-02-13 04:52:25 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: models/Qwen3-8B-Q4_K_M.gguf
+2026-02-13 04:52:25 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 04:52:25 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 04:52:29 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 05:02:49 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 05:02:49 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 05:02:49 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 05:02:49 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 05:02:49 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 05:02:52 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 05:02:52 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 05:02:54 [INFO] __main__: アプリを起動します: http://localhost:7860
+2026-02-13 05:02:54 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 05:02:56 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 05:02:58 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 05:03:11 [INFO] src.llm_handler: llama-cpp モデルをシャットダウンしました
+2026-02-13 05:03:13 [INFO] __main__: GPU VRAMをクリアしました
+2026-02-13 05:03:13 [INFO] __main__: モデルを切り替えています: Qwen3-8B-Q4_K_M (models/Qwen3-8B-Q4_K_M.gguf)
+2026-02-13 05:03:13 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: models/Qwen3-8B-Q4_K_M.gguf
+2026-02-13 05:03:13 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 05:03:13 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 05:03:17 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 05:03:38 [INFO] __main__: Web検索を実行: キオクシアのニュースを教えてください。
+2026-02-13 05:03:38 [INFO] src.search_handler: 検索クエリ: キオクシアのニュースを教えてください。
+2026-02-13 05:03:39 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&limit=1 200
+2026-02-13 05:03:39 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-13 05:03:40 [INFO] primp: response: https://search.yahoo.com/search;_ylt=AAxF-tSpds5ST0tu5TDPoTrR;_ylu=0bpIeonBc3iCO6RBzbfuk4c6B3UNoMq8hvdoz02euUQg67Y?p=%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-13 05:03:41 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 05:03:41 [INFO] __main__: 検索結果: 5 件
+2026-02-13 05:37:08 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 05:37:08 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 05:37:08 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 05:37:08 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 05:37:08 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 05:37:11 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 05:37:11 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 05:37:13 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-13 05:37:14 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 05:37:15 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 05:37:17 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 05:37:25 [INFO] src.llm_handler: llama-cpp モデルをシャットダウンしました
+2026-02-13 05:37:26 [INFO] __main__: GPU VRAMをクリアしました
+2026-02-13 05:37:26 [INFO] __main__: モデルを切り替えています: Qwen3-30B-A3B-Q4_K_M (models/Qwen3-30B-A3B-Q4_K_M.gguf)
+2026-02-13 05:37:26 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-02-13 05:37:26 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 05:37:26 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 05:37:37 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 05:38:09 [INFO] __main__: Web検索を実行: 主要半導体銘柄をいくつか教えてください。
+2026-02-13 05:38:09 [INFO] src.search_handler: 検索クエリ: 主要半導体銘柄をいくつか教えてください。
+2026-02-13 05:38:09 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E4%B8%BB%E8%A6%81%E5%8D%8A%E5%B0%8E%E4%BD%93%E9%8A%98%E6%9F%84%E3%82%92%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&limit=1 200
+2026-02-13 05:38:10 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E4%B8%BB%E8%A6%81%E5%8D%8A%E5%B0%8E%E4%BD%93%E9%8A%98%E6%9F%84%E3%82%92%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-13 05:38:11 [INFO] primp: response: https://search.yahoo.com/search;_ylt=msCVWmQIyFyXn8soRnj0vmkU;_ylu=_ytuz6uO5Uv2XV55Mii9AtGYEWlynm6l8oxojQoawCp3WUY?p=%E4%B8%BB%E8%A6%81%E5%8D%8A%E5%B0%8E%E4%BD%93%E9%8A%98%E6%9F%84%E3%82%92%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-13 05:38:12 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 05:38:12 [INFO] __main__: 検索結果: 5 件
+2026-02-13 05:42:09 [INFO] __main__: Web検索を実行: イビデンについて詳しく教えてほしいです。
+2026-02-13 05:42:09 [INFO] src.search_handler: 検索クエリ: イビデンについて詳しく教えてほしいです。
+2026-02-13 05:42:10 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E3%82%A4%E3%83%93%E3%83%87%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B3%E3%81%97%E3%81%8F%E6%95%99%E3%81%88%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84%E3%81%A7%E3%81%99%E3%80%82&limit=1 200
+2026-02-13 05:42:11 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E3%82%A4%E3%83%93%E3%83%87%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B3%E3%81%97%E3%81%8F%E6%95%99%E3%81%88%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84%E3%81%A7%E3%81%99%E3%80%82 200
+2026-02-13 05:42:11 [INFO] primp: response: https://www.google.com/search?q=%E3%82%A4%E3%83%93%E3%83%87%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B3%E3%81%97%E3%81%8F%E6%95%99%E3%81%88%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84%E3%81%A7%E3%81%99%E3%80%82&filter=1&start=0&hl=jp-JP&lr=lang_jp&cr=countryJP 200
+2026-02-13 05:42:11 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 05:42:11 [INFO] __main__: 検索結果: 5 件
+2026-02-13 07:20:34 [INFO] __main__: Research-Bot を起動しています...
+2026-02-13 07:20:34 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 07:20:34 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-13 07:20:34 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 07:20:34 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 07:20:37 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 07:20:37 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-13 07:20:39 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-13 07:20:40 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-13 07:20:41 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-13 07:20:43 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-13 07:21:12 [INFO] src.llm_handler: llama-cpp モデルをシャットダウンしました
+2026-02-13 07:21:13 [INFO] __main__: GPU VRAMをクリアしました
+2026-02-13 07:21:13 [INFO] __main__: モデルを切り替えています: Qwen3-30B-A3B-Q4_K_M (models/Qwen3-30B-A3B-Q4_K_M.gguf)
+2026-02-13 07:21:13 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-02-13 07:21:13 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-13 07:21:13 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-13 07:21:25 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-13 07:22:01 [INFO] __main__: Web検索を実行: キオクシアの株について、今買うべきポジティブな理由と、ネガティブな理由、それぞれ分析してください。
+2026-02-13 07:22:01 [INFO] src.search_handler: 検索クエリ: キオクシアの株について、今買うべきポジティブな理由と、ネガティブな理由、それぞれ分析してください。
+2026-02-13 07:22:02 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%81%AE%E6%A0%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%80%81%E4%BB%8A%E8%B2%B7%E3%81%86%E3%81%B9%E3%81%8D%E3%83%9D%E3%82%B8%E3%83%86%E3%82%A3%E3%83%96%E3%81%AA%E7%90%86%E7%94%B1%E3%81%A8%E3%80%81%E3%83%8D%E3%82%AC%E3%83%86%E3%82%A3%E3%83%96%E3%81%AA%E7%90%86%E7%94%B1%E3%80%81%E3%81%9D%E3%82%8C%E3%81%9E%E3%82%8C%E5%88%86%E6%9E%90%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&limit=1 200
+2026-02-13 07:22:03 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%81%AE%E6%A0%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%80%81%E4%BB%8A%E8%B2%B7%E3%81%86%E3%81%B9%E3%81%8D%E3%83%9D%E3%82%B8%E3%83%86%E3%82%A3%E3%83%96%E3%81%AA%E7%90%86%E7%94%B1%E3%81%A8%E3%80%81%E3%83%8D%E3%82%AC%E3%83%86%E3%82%A3%E3%83%96%E3%81%AA%E7%90%86%E7%94%B1%E3%80%81%E3%81%9D%E3%82%8C%E3%81%9E%E3%82%8C%E5%88%86%E6%9E%90%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-13 07:22:05 [INFO] primp: response: https://yandex.com/search/site/?text=%E3%82%AD%E3%82%AA%E3%82%AF%E3%82%B7%E3%82%A2%E3%81%AE%E6%A0%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%80%81%E4%BB%8A%E8%B2%B7%E3%81%86%E3%81%B9%E3%81%8D%E3%83%9D%E3%82%B8%E3%83%86%E3%82%A3%E3%83%96%E3%81%AA%E7%90%86%E7%94%B1%E3%81%A8%E3%80%81%E3%83%8D%E3%82%AC%E3%83%86%E3%82%A3%E3%83%96%E3%81%AA%E7%90%86%E7%94%B1%E3%80%81%E3%81%9D%E3%82%8C%E3%81%9E%E3%82%8C%E5%88%86%E6%9E%90%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&web=1&searchid=7042147 200
+2026-02-13 07:22:05 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 07:22:05 [INFO] __main__: 検索結果: 5 件
+2026-02-13 07:23:37 [INFO] __main__: Web検索を実行: 最近のDDR５メモリについて価格を調べてください。
+2026-02-13 07:23:37 [INFO] src.search_handler: 検索クエリ: 最近のDDR５メモリについて価格を調べてください。
+2026-02-13 07:23:38 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E6%9C%80%E8%BF%91%E3%81%AEDDR%EF%BC%95%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E4%BE%A1%E6%A0%BC%E3%82%92%E8%AA%BF%E3%81%B9%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&limit=1 200
+2026-02-13 07:23:38 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E6%9C%80%E8%BF%91%E3%81%AEDDR%EF%BC%95%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E4%BE%A1%E6%A0%BC%E3%82%92%E8%AA%BF%E3%81%B9%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-13 07:23:40 [INFO] primp: response: https://www.mojeek.com/search?q=%E6%9C%80%E8%BF%91%E3%81%AEDDR%EF%BC%95%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E4%BE%A1%E6%A0%BC%E3%82%92%E8%AA%BF%E3%81%B9%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-13 07:23:40 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 07:23:40 [INFO] __main__: 検索結果: 5 件
+2026-02-13 07:25:04 [INFO] __main__: Web検索を実行: 最近の日経株式市場の動向についてまとめてください
+2026-02-13 07:25:04 [INFO] src.search_handler: 検索クエリ: 最近の日経株式市場の動向についてまとめてください
+2026-02-13 07:25:04 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E6%9C%80%E8%BF%91%E3%81%AE%E6%97%A5%E7%B5%8C%E6%A0%AA%E5%BC%8F%E5%B8%82%E5%A0%B4%E3%81%AE%E5%8B%95%E5%90%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%BE%E3%81%A8%E3%82%81%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&limit=1 200
+2026-02-13 07:25:06 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E6%9C%80%E8%BF%91%E3%81%AE%E6%97%A5%E7%B5%8C%E6%A0%AA%E5%BC%8F%E5%B8%82%E5%A0%B4%E3%81%AE%E5%8B%95%E5%90%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%BE%E3%81%A8%E3%82%81%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84 200
+2026-02-13 07:25:07 [INFO] httpx: HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-13 07:25:07 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-13 07:25:07 [INFO] __main__: 検索結果: 5 件
+2026-02-14 02:22:22 [INFO] __main__: Research-Bot を起動しています...
+2026-02-14 02:22:22 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-14 02:22:22 [ERROR] __main__: 初期化エラー: module 'numpy' has no attribute 'bool'
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\main.py", line 558, in main
+    llm, searcher = load_components(config)
+  File "D:\GitHub\research-bot\main.py", line 27, in load_components
+    llm = LLMHandler(model_path=model_path, config=model_config)
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 32, in __init__
+    self._load_model()
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 37, in _load_model
+    from llama_cpp import Llama
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\__init__.py", line 2, in <module>
+    from .llama import *
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama.py", line 43, in <module>
+    import llama_cpp.llama_chat_format as llama_chat_format
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\llama_cpp\llama_chat_format.py", line 30, in <module>
+    import numpy.typing as npt
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\numpy\typing\__init__.py", line 158, in <module>
+    from numpy._typing import (
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\numpy\_typing\__init__.py", line 86, in <module>
+    from ._scalars import (
+  File "D:\miniconda3\conda_envs\main\lib\site-packages\numpy\_typing\_scalars.py", line 12, in <module>
+    _BoolLike_co: TypeAlias = bool | np.bool
+AttributeError: module 'numpy' has no attribute 'bool'
+2026-02-14 02:33:00 [INFO] __main__: Research-Bot を起動しています...
+2026-02-14 02:33:00 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-14 02:33:00 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-14 02:33:00 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-14 02:33:00 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-14 02:33:04 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-14 02:33:04 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-14 02:33:06 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-14 02:33:06 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-14 02:33:08 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-14 02:33:10 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-14 02:33:23 [INFO] __main__: Web検索を実行: あなたについておしえてください。
+2026-02-14 02:33:24 [INFO] src.search_handler: 検索クエリ: あなたについておしえてください。
+2026-02-14 02:33:24 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&limit=1 200
+2026-02-14 02:33:25 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-14 02:33:25 [INFO] primp: response: https://www.google.com/search?q=%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&filter=1&start=0&hl=jp-JP&lr=lang_jp&cr=countryJP 200
+2026-02-14 02:33:26 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-14 02:33:26 [INFO] __main__: 検索結果: 5 件
+2026-02-18 03:20:19 [INFO] __main__: Research-Bot を起動しています...
+2026-02-18 03:20:19 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-18 03:20:20 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-18 03:20:20 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-18 03:20:20 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-18 03:20:23 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-18 03:20:23 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-18 03:20:28 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-18 03:20:28 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-18 03:20:30 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-18 03:20:32 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-20 19:56:40 [INFO] __main__: Research-Bot を起動しています...
+2026-02-20 19:56:40 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 19:56:41 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 19:56:41 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-20 19:56:41 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-20 19:56:45 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-20 19:56:45 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-20 19:56:47 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-20 19:56:47 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-20 19:56:49 [INFO] httpx: HTTP Request: GET http://localhost:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-20 19:56:51 [INFO] httpx: HTTP Request: HEAD http://localhost:7861/ "HTTP/1.1 200 OK"
+2026-02-20 19:57:00 [INFO] __main__: Research-Bot を起動しています...
+2026-02-20 19:57:00 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 19:57:00 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 19:57:00 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-20 19:57:00 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-20 19:57:04 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-20 19:57:04 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-20 19:57:06 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-20 19:57:06 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-20 19:57:08 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-20 19:57:10 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-20 19:57:50 [INFO] __main__: Web検索を実行: 最近のAIニュースを教えてください
+2026-02-20 19:57:50 [INFO] src.search_handler: 検索クエリ: 最近のAIニュースを教えてください
+2026-02-20 19:57:52 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E6%9C%80%E8%BF%91%E3%81%AEAI%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&limit=1 200
+2026-02-20 19:57:52 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E6%9C%80%E8%BF%91%E3%81%AEAI%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84 200
+2026-02-20 19:57:54 [INFO] primp: response: https://yandex.com/search/site/?text=%E6%9C%80%E8%BF%91%E3%81%AEAI%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&web=1&searchid=2677460 200
+2026-02-20 19:57:54 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-20 19:57:54 [INFO] __main__: 検索結果: 5 件
+2026-02-20 19:59:29 [INFO] __main__: Web検索を実行: Audio to AudioでSUNOぐらいよいモデルはありますか？
+2026-02-20 19:59:29 [INFO] src.search_handler: 検索クエリ: Audio to AudioでSUNOぐらいよいモデルはありますか？
+2026-02-20 19:59:31 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=Audio+to+Audio%E3%81%A7SUNO%E3%81%90%E3%82%89%E3%81%84%E3%82%88%E3%81%84%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F&limit=1 200
+2026-02-20 19:59:31 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=Audio%20to%20Audio%E3%81%A7SUNO%E3%81%90%E3%82%89%E3%81%84%E3%82%88%E3%81%84%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F 200
+2026-02-20 19:59:32 [INFO] httpx: HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-20 19:59:32 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-20 19:59:32 [INFO] __main__: 検索結果: 5 件
+2026-02-20 20:06:48 [INFO] __main__: Research-Bot を起動しています...
+2026-02-20 20:06:48 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 20:06:48 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 20:06:48 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-20 20:06:48 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-20 20:06:51 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-20 20:06:51 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-20 20:06:53 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-20 20:07:19 [INFO] __main__: Research-Bot を起動しています...
+2026-02-20 20:07:19 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 20:07:20 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 20:07:20 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-20 20:07:20 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-20 20:07:23 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-20 20:07:23 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-20 20:07:25 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-20 20:08:25 [INFO] __main__: Research-Bot を起動しています...
+2026-02-20 20:08:25 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 20:08:26 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 20:08:26 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-20 20:08:26 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-20 20:08:29 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-20 20:08:29 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-20 20:08:30 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-20 20:08:31 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-20 20:08:33 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-20 20:08:35 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-20 20:08:54 [INFO] __main__: Web検索を実行: 最近のSSD価格の推移を知りたいです。
+2026-02-20 20:08:54 [INFO] src.search_handler: 検索クエリ: 最近のSSD価格の推移を知りたいです。
+2026-02-20 20:08:55 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E6%9C%80%E8%BF%91%E3%81%AESSD%E4%BE%A1%E6%A0%BC%E3%81%AE%E6%8E%A8%E7%A7%BB%E3%82%92%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%80%82&limit=1 200
+2026-02-20 20:08:56 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E6%9C%80%E8%BF%91%E3%81%AESSD%E4%BE%A1%E6%A0%BC%E3%81%AE%E6%8E%A8%E7%A7%BB%E3%82%92%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%80%82 200
+2026-02-20 20:08:57 [INFO] primp: response: https://www.mojeek.com/search?q=%E6%9C%80%E8%BF%91%E3%81%AESSD%E4%BE%A1%E6%A0%BC%E3%81%AE%E6%8E%A8%E7%A7%BB%E3%82%92%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%80%82 200
+2026-02-20 20:08:57 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-20 20:08:57 [INFO] __main__: 検索結果: 5 件
+2026-02-20 20:09:42 [INFO] __main__: Web検索を実行: 最近のメモリ業界のニュースは？
+2026-02-20 20:09:42 [INFO] src.search_handler: 検索クエリ: 最近のメモリ業界のニュースは？
+2026-02-20 20:09:42 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E6%9C%80%E8%BF%91%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E6%A5%AD%E7%95%8C%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AF%EF%BC%9F&limit=1 200
+2026-02-20 20:09:43 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E6%9C%80%E8%BF%91%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E6%A5%AD%E7%95%8C%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AF%EF%BC%9F 200
+2026-02-20 20:09:44 [INFO] primp: response: https://www.mojeek.com/search?q=%E6%9C%80%E8%BF%91%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E6%A5%AD%E7%95%8C%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AF%EF%BC%9F 200
+2026-02-20 20:09:45 [INFO] primp: response: https://www.google.com/search?q=%E6%9C%80%E8%BF%91%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AA%E6%A5%AD%E7%95%8C%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AF%EF%BC%9F&filter=1&start=0&hl=jp-JP&lr=lang_jp&cr=countryJP 200
+2026-02-20 20:09:45 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-20 20:09:45 [INFO] __main__: 検索結果: 5 件
+2026-02-20 20:53:26 [INFO] __main__: Research-Bot を起動しています...
+2026-02-20 20:53:26 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 20:53:26 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-20 20:53:26 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-20 20:53:26 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-20 20:53:29 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-20 20:53:29 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-20 20:53:31 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-20 20:53:31 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-20 20:53:33 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-20 20:53:35 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-20 20:54:02 [INFO] __main__: Web検索を実行: 今週の日経平均株価やニュースについて教えて。
+2026-02-20 20:54:02 [INFO] src.search_handler: 検索クエリ: 今週の日経平均株価やニュースについて教えて。
+2026-02-20 20:54:03 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E4%BB%8A%E9%80%B1%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E6%A0%AA%E4%BE%A1%E3%82%84%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%80%82&limit=1 200
+2026-02-20 20:54:03 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E4%BB%8A%E9%80%B1%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E6%A0%AA%E4%BE%A1%E3%82%84%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%80%82 200
+2026-02-20 20:54:05 [INFO] primp: response: https://yandex.com/search/site/?text=%E4%BB%8A%E9%80%B1%E3%81%AE%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%E6%A0%AA%E4%BE%A1%E3%82%84%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%80%82&web=1&searchid=5579491 200
+2026-02-20 20:54:05 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-20 20:54:05 [INFO] __main__: 検索結果: 5 件
+2026-02-20 20:55:21 [INFO] __main__: Web検索を実行: 今現在のニュースでお願いします・・。
+2026-02-20 20:55:21 [INFO] src.search_handler: 検索クエリ: 今現在のニュースでお願いします・・。
+2026-02-20 20:55:22 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E4%BB%8A%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%A7%E3%81%8A%E9%A1%98%E3%81%84%E3%81%97%E3%81%BE%E3%81%99%E3%83%BB%E3%83%BB%E3%80%82&limit=1 200
+2026-02-20 20:55:22 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E4%BB%8A%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%A7%E3%81%8A%E9%A1%98%E3%81%84%E3%81%97%E3%81%BE%E3%81%99%E3%83%BB%E3%83%BB%E3%80%82 200
+2026-02-20 20:55:24 [INFO] primp: response: https://yandex.com/search/site/?text=%E4%BB%8A%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%A7%E3%81%8A%E9%A1%98%E3%81%84%E3%81%97%E3%81%BE%E3%81%99%E3%83%BB%E3%83%BB%E3%80%82&web=1&searchid=9819555 200
+2026-02-20 20:55:24 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-20 20:55:24 [INFO] __main__: 検索結果: 5 件
+2026-02-20 20:56:06 [INFO] __main__: Web検索を実行: ではメモリー業界のニュースについて教えてください。
+2026-02-20 20:56:06 [INFO] src.search_handler: 検索クエリ: ではメモリー業界のニュースについて教えてください。
+2026-02-20 20:56:07 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E3%81%A7%E3%81%AF%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E6%A5%AD%E7%95%8C%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82&limit=1 200
+2026-02-20 20:56:08 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E3%81%A7%E3%81%AF%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E6%A5%AD%E7%95%8C%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-20 20:56:09 [INFO] primp: response: https://www.mojeek.com/search?q=%E3%81%A7%E3%81%AF%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E6%A5%AD%E7%95%8C%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 403
+2026-02-20 20:56:10 [INFO] primp: response: https://search.yahoo.com/search;_ylt=O8pvsz3UWjDgF-STcXXPZNdC;_ylu=uh9l-bk2FPMSsZEvNCDZy6xZBeWiBUXDcfuqynlaJ-ukEME?p=%E3%81%A7%E3%81%AF%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E6%A5%AD%E7%95%8C%E3%81%AE%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82 200
+2026-02-20 20:56:10 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-20 20:56:10 [INFO] __main__: 検索結果: 5 件
+2026-02-22 00:13:05 [INFO] __main__: Research-Bot を起動しています...
+2026-02-22 00:13:05 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-22 00:13:06 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-22 00:13:06 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-22 00:13:06 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-22 00:13:09 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-22 00:13:09 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-22 00:13:12 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-22 00:13:12 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-22 00:13:14 [INFO] httpx: HTTP Request: GET http://localhost:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-22 00:13:16 [INFO] httpx: HTTP Request: HEAD http://localhost:7861/ "HTTP/1.1 200 OK"
+2026-02-22 00:13:20 [INFO] __main__: Research-Bot を起動しています...
+2026-02-22 00:13:20 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-22 00:13:20 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-22 00:13:20 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-22 00:13:20 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-22 00:13:24 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-22 00:13:24 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-22 00:13:26 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-22 00:13:26 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-22 00:13:33 [INFO] httpx: HTTP Request: GET http://localhost:7863/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-22 00:13:37 [INFO] __main__: Research-Bot を起動しています...
+2026-02-22 00:13:37 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-22 00:13:37 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-02-22 00:13:37 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-02-22 00:13:37 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-02-22 00:13:41 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-02-22 00:13:41 [INFO] __main__: 検索ハンドラーを初期化中
+2026-02-22 00:13:43 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-02-22 00:13:43 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-22 00:13:45 [INFO] httpx: HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-22 00:13:47 [INFO] httpx: HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-02-22 00:17:18 [INFO] __main__: Web検索を実行: これは世界情勢を正しく把握できていなかったと、この最たる例のひとつだと、考えております。このような歴史をふまえて現代を生きる我々は、
+そこから何を学ぶべきなのか、第一に、現行憲法のもとでは、日本国憲法のもとでは、文民統制が制度として整えられ、自衛隊は内閣総理大臣の指揮下に置かれております。
+2026-02-22 00:17:18 [INFO] src.search_handler: 検索クエリ: これは世界情勢を正しく把握できていなかったと、この最たる例のひとつだと、考えております。このような歴史をふまえて現代を生きる我々は、
+そこから何を学ぶべきなのか、第一に、現行憲法のもとでは、日本国憲法のもとでは、文民統制が制度として整えられ、自衛隊は内閣総理大臣の指揮下に置かれております。
+2026-02-22 00:17:19 [INFO] primp: response: https://ja.wikipedia.org/w/api.php?action=opensearch&limit=1&profile=fuzzy&search=%E3%81%93%E3%82%8C%E3%81%AF%E4%B8%96%E7%95%8C%E6%83%85%E5%8B%A2%E3%82%92%E6%AD%A3%E3%81%97%E3%81%8F%E6%8A%8A%E6%8F%A1%E3%81%A7%E3%81%8D%E3%81%A6%E3%81%84%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%A8%E3%80%81%E3%81%93%E3%81%AE%E6%9C%80%E3%81%9F%E3%82%8B%E4%BE%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A0%E3%81%A8%E3%80%81%E8%80%83%E3%81%88%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82%E3%81%93%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E6%AD%B4%E5%8F%B2%E3%82%92%E3%81%B5%E3%81%BE%E3%81%88%E3%81%A6%E7%8F%BE%E4%BB%A3%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%E6%88%91%E3%80%85%E3%81%AF%E3%80%81%0A%E3%81%9D%E3%81%93%E3%81%8B%E3%82%89%E4%BD%95%E3%82%92%E5%AD%A6%E3%81%B6%E3%81%B9%E3%81%8D%E3%81%AA%E3%81%AE%E3%81%8B%E3%80%81%E7%AC%AC%E4%B8%80%E3%81%AB%E3%80%81%E7%8F%BE%E8%A1%8C%E6%86%B2%E6%B3%95%E3%81%AE%E3%82%82%E3%81%A8%E3%81%A7%E3%81%AF%E3%80%81%E6%97%A5%E6%9C%AC%E5%9B%BD%E6%86%B2%E6%B3%95%E3%81%AE%E3%82%82%E3%81%A8%E3%81%A7%E3%81%AF%E3%80%81%E6%96%87%E6%B0%91%E7%B5%B1%E5%88%B6%E3%81%8C%E5%88%B6%E5%BA%A6%E3%81%A8%E3%81%97%E3%81%A6%E6%95%B4%E3%81%88%E3%82%89%E3%82%8C%E3%80%81%E8%87%AA%E8%A1%9B%E9%9A%8A%E3%81%AF%E5%86%85%E9%96%A3%E7%B7%8F%E7%90%86%E5%A4%A7%E8%87%A3%E3%81%AE%E6%8C%87%E6%8F%AE%E4%B8%8B%E3%81%AB%E7%BD%AE%E3%81%8B%E3%82%8C%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82 200
+2026-02-22 00:17:20 [INFO] primp: response: https://grokipedia.com/api/typeahead?query=%E3%81%93%E3%82%8C%E3%81%AF%E4%B8%96%E7%95%8C%E6%83%85%E5%8B%A2%E3%82%92%E6%AD%A3%E3%81%97%E3%81%8F%E6%8A%8A%E6%8F%A1%E3%81%A7%E3%81%8D%E3%81%A6%E3%81%84%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%A8%E3%80%81%E3%81%93%E3%81%AE%E6%9C%80%E3%81%9F%E3%82%8B%E4%BE%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A0%E3%81%A8%E3%80%81%E8%80%83%E3%81%88%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82%E3%81%93%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E6%AD%B4%E5%8F%B2%E3%82%92%E3%81%B5%E3%81%BE%E3%81%88%E3%81%A6%E7%8F%BE%E4%BB%A3%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%E6%88%91%E3%80%85%E3%81%AF%E3%80%81%0A%E3%81%9D%E3%81%93%E3%81%8B%E3%82%89%E4%BD%95%E3%82%92%E5%AD%A6%E3%81%B6%E3%81%B9%E3%81%8D%E3%81%AA%E3%81%AE%E3%81%8B%E3%80%81%E7%AC%AC%E4%B8%80%E3%81%AB%E3%80%81%E7%8F%BE%E8%A1%8C%E6%86%B2%E6%B3%95%E3%81%AE%E3%82%82%E3%81%A8%E3%81%A7%E3%81%AF%E3%80%81%E6%97%A5%E6%9C%AC%E5%9B%BD%E6%86%B2%E6%B3%95%E3%81%AE%E3%82%82%E3%81%A8%E3%81%A7%E3%81%AF%E3%80%81%E6%96%87%E6%B0%91%E7%B5%B1%E5%88%B6%E3%81%8C%E5%88%B6%E5%BA%A6%E3%81%A8%E3%81%97%E3%81%A6%E6%95%B4%E3%81%88%E3%82%89%E3%82%8C%E3%80%81%E8%87%AA%E8%A1%9B%E9%9A%8A%E3%81%AF%E5%86%85%E9%96%A3%E7%B7%8F%E7%90%86%E5%A4%A7%E8%87%A3%E3%81%AE%E6%8C%87%E6%8F%AE%E4%B8%8B%E3%81%AB%E7%BD%AE%E3%81%8B%E3%82%8C%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82&limit=1 200
+2026-02-22 00:17:20 [INFO] primp: response: https://www.google.com/search?q=%E3%81%93%E3%82%8C%E3%81%AF%E4%B8%96%E7%95%8C%E6%83%85%E5%8B%A2%E3%82%92%E6%AD%A3%E3%81%97%E3%81%8F%E6%8A%8A%E6%8F%A1%E3%81%A7%E3%81%8D%E3%81%A6%E3%81%84%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%A8%E3%80%81%E3%81%93%E3%81%AE%E6%9C%80%E3%81%9F%E3%82%8B%E4%BE%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A0%E3%81%A8%E3%80%81%E8%80%83%E3%81%88%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82%E3%81%93%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E6%AD%B4%E5%8F%B2%E3%82%92%E3%81%B5%E3%81%BE%E3%81%88%E3%81%A6%E7%8F%BE%E4%BB%A3%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%E6%88%91%E3%80%85%E3%81%AF%E3%80%81%0A%E3%81%9D%E3%81%93%E3%81%8B%E3%82%89%E4%BD%95%E3%82%92%E5%AD%A6%E3%81%B6%E3%81%B9%E3%81%8D%E3%81%AA%E3%81%AE%E3%81%8B%E3%80%81%E7%AC%AC%E4%B8%80%E3%81%AB%E3%80%81%E7%8F%BE%E8%A1%8C%E6%86%B2%E6%B3%95%E3%81%AE%E3%82%82%E3%81%A8%E3%81%A7%E3%81%AF%E3%80%81%E6%97%A5%E6%9C%AC%E5%9B%BD%E6%86%B2%E6%B3%95%E3%81%AE%E3%82%82%E3%81%A8%E3%81%A7%E3%81%AF%E3%80%81%E6%96%87%E6%B0%91%E7%B5%B1%E5%88%B6%E3%81%8C%E5%88%B6%E5%BA%A6%E3%81%A8%E3%81%97%E3%81%A6%E6%95%B4%E3%81%88%E3%82%89%E3%82%8C%E3%80%81%E8%87%AA%E8%A1%9B%E9%9A%8A%E3%81%AF%E5%86%85%E9%96%A3%E7%B7%8F%E7%90%86%E5%A4%A7%E8%87%A3%E3%81%AE%E6%8C%87%E6%8F%AE%E4%B8%8B%E3%81%AB%E7%BD%AE%E3%81%8B%E3%82%8C%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82&filter=1&start=0&hl=jp-JP&lr=lang_jp&cr=countryJP 200
+2026-02-22 00:17:20 [INFO] src.search_handler: 検索結果: 5 件
+2026-02-22 00:17:20 [INFO] __main__: 検索結果: 5 件
+2026-03-05 08:28:55 [INFO] __main__: Research-Bot を起動しています...
+2026-03-05 08:28:55 [INFO] __main__: LLMを初期化中: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-03-05 08:28:57 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-03-05 08:28:57 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 08:28:57 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 08:29:00 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-03-05 08:29:00 [INFO] __main__: 検索ハンドラーを初期化中
+2026-03-05 08:29:05 [INFO] __main__: アプリを起動します (ポート: 自動)
+2026-03-05 08:29:05 [INFO] httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-03-05 08:29:07 [INFO] httpx: HTTP Request: GET http://localhost:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-03-05 08:29:09 [INFO] httpx: HTTP Request: HEAD http://localhost:7861/ "HTTP/1.1 200 OK"
+2026-03-05 08:49:51 [ERROR] __main__: モデルが見つかりません: ./models/Qwen3-4B-Q4_K_M.gguf
+2026-03-05 08:49:51 [ERROR] __main__: 先に download_model.py を実行してください: python download_model.py
+2026-03-05 09:04:53 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 09:04:53 [INFO] __main__: LLMを初期化中: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+2026-03-05 09:04:54 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+2026-03-05 09:04:54 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 09:04:54 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 09:04:54 [WARNING] src.llm_handler: GPU ロードに失敗しました (Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf)。CPU のみで再試行します...
+2026-03-05 09:04:54 [ERROR] __main__: 初期化エラー: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 53, in _load_model
+    self.llm = Llama(
+               ^^^^^^
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\llama.py", line 374, in __init__
+    internals.LlamaModel(
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\_internals.py", line 58, in __init__
+    raise ValueError(f"Failed to load model from file: {path_model}")
+ValueError: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\main.py", line 465, in run_server
+    llm, searcher = load_components(config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GitHub\research-bot\main.py", line 64, in load_components
+    llm = LLMHandler(model_path=model_path, config=model_config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 32, in __init__
+    self._load_model()
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 70, in _load_model
+    self.llm = Llama(
+               ^^^^^^
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\llama.py", line 374, in __init__
+    internals.LlamaModel(
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\_internals.py", line 58, in __init__
+    raise ValueError(f"Failed to load model from file: {path_model}")
+ValueError: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+2026-03-05 09:16:33 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 09:16:33 [INFO] __main__: LLMを初期化中: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+2026-03-05 09:16:34 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+2026-03-05 09:16:34 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 09:16:34 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 09:16:35 [WARNING] src.llm_handler: GPU ロードに失敗しました (Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf)。CPU のみで再試行します...
+2026-03-05 09:16:37 [ERROR] __main__: 初期化エラー: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 53, in _load_model
+    self.llm = Llama(
+               ^^^^^^
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\llama.py", line 374, in __init__
+    internals.LlamaModel(
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\_internals.py", line 58, in __init__
+    raise ValueError(f"Failed to load model from file: {path_model}")
+ValueError: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\main.py", line 465, in run_server
+    llm, searcher = load_components(config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GitHub\research-bot\main.py", line 64, in load_components
+    llm = LLMHandler(model_path=model_path, config=model_config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 32, in __init__
+    self._load_model()
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 70, in _load_model
+    self.llm = Llama(
+               ^^^^^^
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\llama.py", line 374, in __init__
+    internals.LlamaModel(
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\_internals.py", line 58, in __init__
+    raise ValueError(f"Failed to load model from file: {path_model}")
+ValueError: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+2026-03-05 09:27:41 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 09:27:41 [INFO] __main__: LLMを初期化中: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+2026-03-05 09:27:41 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+2026-03-05 09:27:41 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 09:27:41 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 09:27:43 [WARNING] src.llm_handler: GPU ロードに失敗しました (Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf)。CPU のみで再試行します...
+2026-03-05 09:27:44 [ERROR] __main__: 初期化エラー: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 53, in _load_model
+    self.llm = Llama(
+               ^^^^^^
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\llama.py", line 374, in __init__
+    internals.LlamaModel(
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\_internals.py", line 58, in __init__
+    raise ValueError(f"Failed to load model from file: {path_model}")
+ValueError: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\GitHub\research-bot\main.py", line 471, in run_server
+    llm, searcher = load_components(config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GitHub\research-bot\main.py", line 70, in load_components
+    llm = LLMHandler(model_path=model_path, config=model_config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 32, in __init__
+    self._load_model()
+  File "D:\GitHub\research-bot\src\llm_handler.py", line 70, in _load_model
+    self.llm = Llama(
+               ^^^^^^
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\llama.py", line 374, in __init__
+    internals.LlamaModel(
+  File "D:\miniconda3\conda_envs\new\Lib\site-packages\llama_cpp\_internals.py", line 58, in __init__
+    raise ValueError(f"Failed to load model from file: {path_model}")
+ValueError: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
+2026-03-05 09:36:36 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 09:36:36 [INFO] __main__: LLMを初期化中: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 09:36:36 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 09:36:36 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 09:36:36 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 09:36:46 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-03-05 09:36:46 [INFO] __main__: 検索ハンドラーを初期化中
+2026-03-05 09:36:46 [INFO] __main__: APIサーバー起動: http://127.0.0.1:8765
+2026-03-05 09:43:41 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 09:43:41 [INFO] __main__: LLMを初期化中: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 09:43:41 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 09:43:41 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 09:43:41 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 09:43:51 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-03-05 09:43:51 [INFO] __main__: 検索ハンドラーを初期化中
+2026-03-05 09:43:51 [INFO] __main__: APIサーバー起動: http://127.0.0.1:8765
+2026-03-05 10:09:22 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 10:09:22 [INFO] __main__: LLMを初期化中: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:09:22 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:09:22 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 10:09:22 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 10:09:33 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-03-05 10:09:33 [INFO] __main__: 検索ハンドラーを初期化中
+2026-03-05 10:09:33 [INFO] __main__: APIサーバー起動: http://127.0.0.1:8765
+2026-03-05 10:15:10 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 10:15:10 [INFO] __main__: LLMを初期化中: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:15:10 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:15:10 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 10:15:10 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 10:15:20 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-03-05 10:15:20 [INFO] __main__: 検索ハンドラーを初期化中
+2026-03-05 10:15:20 [INFO] __main__: APIサーバー起動: http://127.0.0.1:8765
+2026-03-05 10:16:34 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 10:16:34 [INFO] __main__: LLMを初期化中: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:16:34 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:16:34 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 10:16:34 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 10:16:44 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-03-05 10:16:44 [INFO] __main__: 検索ハンドラーを初期化中
+2026-03-05 10:16:44 [INFO] __main__: APIサーバー起動: http://127.0.0.1:8765
+2026-03-05 10:18:01 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 10:18:01 [INFO] __main__: LLMを初期化中: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:18:01 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:18:01 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 10:18:01 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 10:18:11 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-03-05 10:18:11 [INFO] __main__: 検索ハンドラーを初期化中
+2026-03-05 10:18:11 [INFO] __main__: APIサーバー起動: http://127.0.0.1:8765
+2026-03-05 10:18:37 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/DevQuasar/huihui-ai.Qwen3-30B-A3B-abliterated-GGUF/resolve/main/huihui-ai.Qwen3-30B-A3B-abliterated.Q4_K_M.gguf "HTTP/1.1 302 Found"
+2026-03-05 10:18:37 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/DevQuasar/huihui-ai.Qwen3-30B-A3B-abliterated-GGUF/xet-read-token/7871f1589032c9f2fee499e091eb2a54a745d1f6 "HTTP/1.1 200 OK"
+2026-03-05 10:26:21 [INFO] __main__: Research-Bot API を起動しています...
+2026-03-05 10:26:21 [INFO] __main__: LLMを初期化中: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:26:22 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: ./models/Qwen3-30B-A3B-Q4_K_M.gguf
+2026-03-05 10:26:22 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 10:26:22 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 10:26:32 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)
+2026-03-05 10:26:32 [INFO] __main__: 検索ハンドラーを初期化中
+2026-03-05 10:26:32 [INFO] __main__: APIサーバー起動: http://127.0.0.1:8765
+2026-03-05 10:26:54 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/DevQuasar/huihui-ai.Qwen3-30B-A3B-abliterated-GGUF/resolve/main/huihui-ai.Qwen3-30B-A3B-abliterated.Q4_K_M.gguf "HTTP/1.1 302 Found"
+2026-03-05 10:26:54 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/DevQuasar/huihui-ai.Qwen3-30B-A3B-abliterated-GGUF/xet-read-token/7871f1589032c9f2fee499e091eb2a54a745d1f6 "HTTP/1.1 200 OK"

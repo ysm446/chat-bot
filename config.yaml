@@ -1,0 +1,32 @@
+# モデル設定（llama-cpp-python / GGUF形式）
+model:
+  path: "./models/Qwen3-30B-A3B-Q4_K_M.gguf"
+  n_gpu_layers: -1
+  n_ctx: 32768
+  n_threads: 4
+
+# サンプリング設定
+sampling:
+  temperature: 0.6
+  top_p: 0.95
+  top_k: 20
+  max_tokens: 8192
+
+# 検索設定
+search:
+  enabled: true
+  max_results: 5
+  region: "jp-jp"
+  safe_search: "moderate"
+  timeout: 10
+
+# API設定
+api:
+  host: "127.0.0.1"
+  port: 8765
+
+# 表示設定
+display:
+  show_thinking: true
+  show_search_results: true
+  stream_output: true

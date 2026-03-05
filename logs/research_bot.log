@@ -1110,3 +1110,8 @@ ValueError: Failed to load model from file: ./models/Qwen3.5-35B-A3B-Q4_K_M.gguf
 2026-03-05 10:26:32 [INFO] __main__: APIサーバー起動: http://127.0.0.1:8765
 2026-03-05 10:26:54 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/DevQuasar/huihui-ai.Qwen3-30B-A3B-abliterated-GGUF/resolve/main/huihui-ai.Qwen3-30B-A3B-abliterated.Q4_K_M.gguf "HTTP/1.1 302 Found"
 2026-03-05 10:26:54 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/DevQuasar/huihui-ai.Qwen3-30B-A3B-abliterated-GGUF/xet-read-token/7871f1589032c9f2fee499e091eb2a54a745d1f6 "HTTP/1.1 200 OK"
+2026-03-05 11:19:55 [INFO] src.llm_handler: llama-cpp モデルをシャットダウンしました
+2026-03-05 11:19:55 [INFO] src.llm_handler: llama-cpp-python でモデルを読み込んでいます: models/huihui-ai.Qwen3-30B-A3B-abliterated.Q4_K_M.gguf
+2026-03-05 11:19:55 [INFO] src.llm_handler: （初回起動は数分かかる場合があります）
+2026-03-05 11:19:55 [INFO] src.llm_handler: 設定: n_gpu_layers=-1, n_ctx=32768, n_threads=4
+2026-03-05 11:20:05 [INFO] src.llm_handler: ✅ モデルの読み込みが完了しました (GPU使用: n_gpu_layers=-1, n_ctx=32768)

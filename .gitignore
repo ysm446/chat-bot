@@ -41,6 +41,10 @@ electron/.cache/
 # モデルファイル（大容量のため除外）
 models/*
 
+# ユーザーローカル設定
+settings.json
+logs/
+
 # OS固有
 .DS_Store
 Thumbs.db
